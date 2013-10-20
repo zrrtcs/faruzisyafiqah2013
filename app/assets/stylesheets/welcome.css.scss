@@ -1,0 +1,29 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@font-face {
+  font-family: 'Damion';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Damion'), url(http://themes.googleusercontent.com/static/fonts/damion/v3/n4-ujaVErN754YRptkhfP-vvDin1pK8aKteLpeZ5c0A.woff) format('woff');
+}
+
+
+body#master-body
+{
+  background: #FEC;
+
+
+  .container
+  {
+    max-width: 480px;
+    background: #F36C4F;
+    margin: 0 auto;
+  }
+  .container h1
+  {
+    text-align: center;
+    font-family: 'Damion', cursive;
+
+  }
+}

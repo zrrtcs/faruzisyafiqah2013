@@ -1,0 +1,100 @@
+// Place all the styles related to the prototwo controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$backred: #8b3639;
+#body-prototwo
+{
+  background: $backred;
+
+  .mobilediv.container
+  {
+    max-width: 320px;
+    margin: 0 auto;
+    background: #fec;
+  }
+  .page-first
+  {
+    // border-bottom: 1px solid black;
+    background: #fec;
+    cursor: pointer;
+    .bigname
+    {
+      text-align: right;
+      color: $backred;
+      font-size: 64pt;
+      font-weight: bolder;
+    }
+    .bigname.girl
+    {
+      margin-top: -53px;
+    }
+    font-family: 'Damion', cursive;
+    
+  }
+  .page-two
+  {
+    // border-bottom: 1px solid black;
+    padding: 10px 10px;
+    .date {
+      font-size: 5em;
+      font-weight: 900;
+      background: #8B3639;
+      color: white;
+      font-family: 'Codystar', cursive;
+      cursor: pointer;
+    }
+    .date.girl{
+      // padding-top: 50%;
+    }
+    .date.boy{
+      // padding-bottom: 50%;
+    }
+    .bordered.date.girl{
+      border-top: 5px solid black;
+      border-right: 5px solid black;
+      border-left: 5px solid black;
+    }
+    .bordered.name.girl{
+      border-left: 5px solid black;
+    }
+    .bordered.date.boy{
+      border: 5px solid black;
+    }
+    .bordered.name.boy{
+      border-right: 5px solid black;
+    }
+    .girl{
+      background: #cc8084;
+    }
+    .girl.name{
+      float:left;
+    }
+    .boy{
+      background: #7bc9c7;
+      text-align: right;
+    }
+    .boy.name{
+      float:right;
+    }
+    .name {
+      color: white;
+      font-size: 42px;
+      font-family: 'Damion', cursive;
+      padding-right: 19px;
+      font-weight: bolder;
+      color: rgba(0,0,0,1);
+      cursor: pointer;
+    //text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+    }
+  }
+}
+
+.opacity-less{
+  opacity: 0.5;
+}
+.red-crimson{
+  background: #DA3E46 !important;
+}
+.blue-sea{
+  background: #0CC0BB !important;
+}
