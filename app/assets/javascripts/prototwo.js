@@ -3,7 +3,7 @@ jQuery(function(){
 
   var winH = $(window).height();
   var p1H = $('.page-first').height();
-  console.log('yo marley');
+  //start page go to page-first
   $('.page-first, .page-two').css('height',winH);
   $('.page-first #names').css('padding-top',winH-p1H);
 
@@ -11,7 +11,7 @@ jQuery(function(){
     var p1H = $('.page-first').height();
     $(document).scrollTop(p1H);
   });
-
+  
   $(document).scrollTop(0);
   //styling for pagetwo
   //height of (.date.girl+.name+.date.boy)/2

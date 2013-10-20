@@ -1,7 +1,9 @@
 Faruzisyafiqah2013::Application.routes.draw do
+  get "example/backbone_routing"
+
   get "prototwo/index"
 
-  root :to => "welcome#index"
+  root :to => "prototwo#index"
   
   get "welcome/index"
 
